@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		270083451E13A28B0036FC70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 270083441E13A28B0036FC70 /* main.m */; };
+		270083481E13A28B0036FC70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 270083471E13A28B0036FC70 /* AppDelegate.m */; };
+		2700834B1E13A28B0036FC70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2700834A1E13A28B0036FC70 /* ViewController.m */; };
+		2700834E1E13A28B0036FC70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2700834C1E13A28B0036FC70 /* Main.storyboard */; };
+		270083501E13A28B0036FC70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2700834F1E13A28B0036FC70 /* Assets.xcassets */; };
+		270083531E13A28B0036FC70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270083511E13A28B0036FC70 /* LaunchScreen.storyboard */; };
+		2700835B1E13A4750036FC70 /* images.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2700835A1E13A4750036FC70 /* images.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		270083401E13A28B0036FC70 /* 图片浏览器---陈伟.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "图片浏览器---陈伟.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		270083441E13A28B0036FC70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		270083461E13A28B0036FC70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		270083471E13A28B0036FC70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		270083491E13A28B0036FC70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2700834A1E13A28B0036FC70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2700834D1E13A28B0036FC70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2700834F1E13A28B0036FC70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		270083521E13A28B0036FC70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		270083541E13A28B0036FC70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2700835A1E13A4750036FC70 /* images.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = images.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2700833D1E13A28B0036FC70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		270083371E13A28B0036FC70 = {
+			isa = PBXGroup;
+			children = (
+				270083421E13A28B0036FC70 /* 图片浏览器---陈伟 */,
+				270083411E13A28B0036FC70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		270083411E13A28B0036FC70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				270083401E13A28B0036FC70 /* 图片浏览器---陈伟.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		270083421E13A28B0036FC70 /* 图片浏览器---陈伟 */ = {
+			isa = PBXGroup;
+			children = (
+				270083461E13A28B0036FC70 /* AppDelegate.h */,
+				270083471E13A28B0036FC70 /* AppDelegate.m */,
+				270083491E13A28B0036FC70 /* ViewController.h */,
+				2700834A1E13A28B0036FC70 /* ViewController.m */,
+				2700834C1E13A28B0036FC70 /* Main.storyboard */,
+				2700834F1E13A28B0036FC70 /* Assets.xcassets */,
+				270083511E13A28B0036FC70 /* LaunchScreen.storyboard */,
+				270083541E13A28B0036FC70 /* Info.plist */,
+				270083431E13A28B0036FC70 /* Supporting Files */,
+			);
+			path = "图片浏览器---陈伟";
+			sourceTree = "<group>";
+		};
+		270083431E13A28B0036FC70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2700835A1E13A4750036FC70 /* images.plist */,
+				270083441E13A28B0036FC70 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2700833F1E13A28B0036FC70 /* 图片浏览器---陈伟 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 270083571E13A28B0036FC70 /* Build configuration list for PBXNativeTarget "图片浏览器---陈伟" */;
+			buildPhases = (
+				2700833C1E13A28B0036FC70 /* Sources */,
+				2700833D1E13A28B0036FC70 /* Frameworks */,
+				2700833E1E13A28B0036FC70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "图片浏览器---陈伟";
+			productName = "图片浏览器---陈伟";
+			productReference = 270083401E13A28B0036FC70 /* 图片浏览器---陈伟.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		270083381E13A28B0036FC70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = itheima;
+				TargetAttributes = {
+					2700833F1E13A28B0036FC70 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2700833B1E13A28B0036FC70 /* Build configuration list for PBXProject "图片浏览器---陈伟" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 270083371E13A28B0036FC70;
+			productRefGroup = 270083411E13A28B0036FC70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2700833F1E13A28B0036FC70 /* 图片浏览器---陈伟 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2700833E1E13A28B0036FC70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2700835B1E13A4750036FC70 /* images.plist in Resources */,
+				270083531E13A28B0036FC70 /* LaunchScreen.storyboard in Resources */,
+				270083501E13A28B0036FC70 /* Assets.xcassets in Resources */,
+				2700834E1E13A28B0036FC70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2700833C1E13A28B0036FC70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2700834B1E13A28B0036FC70 /* ViewController.m in Sources */,
+				270083481E13A28B0036FC70 /* AppDelegate.m in Sources */,
+				270083451E13A28B0036FC70 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2700834C1E13A28B0036FC70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2700834D1E13A28B0036FC70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		270083511E13A28B0036FC70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				270083521E13A28B0036FC70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		270083551E13A28B0036FC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		270083561E13A28B0036FC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		270083581E13A28B0036FC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "图片浏览器---陈伟/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itheima.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		270083591E13A28B0036FC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "图片浏览器---陈伟/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itheima.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2700833B1E13A28B0036FC70 /* Build configuration list for PBXProject "图片浏览器---陈伟" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270083551E13A28B0036FC70 /* Debug */,
+				270083561E13A28B0036FC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		270083571E13A28B0036FC70 /* Build configuration list for PBXNativeTarget "图片浏览器---陈伟" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270083581E13A28B0036FC70 /* Debug */,
+				270083591E13A28B0036FC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 270083381E13A28B0036FC70 /* Project object */;
+}
